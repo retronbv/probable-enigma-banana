@@ -1,0 +1,22 @@
+{
+  "name": "doitallbot",
+  "version": "0.0.1",
+  "description": "The Discord Bot that does it all",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore storage.json",
+    "start": "node index.js"
+  },
+  "author": "TheColaber",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
